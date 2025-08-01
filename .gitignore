@@ -1,5 +1,25 @@
-/node_modules
+# Node modules (ignore all across microservices)
+**/node_modules/
 
+# Environment files
+**/.env
+**/.env.*  # optional, for .env.development etc.
+
+# macOS system files
 .DS_Store
 
-.env*
+# Log files
+**/logs
+**/*.log
+
+# Optional OS junk
+Thumbs.db
+
+# IDE configs (optional)
+.vscode/
+.idea/
+*.swp
+
+# Build folders (if used)
+**/dist/
+**/build/
