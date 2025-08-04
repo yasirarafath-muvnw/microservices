@@ -26,7 +26,7 @@ const run = async () => {
         const dummyOrderId = "123456789";
         console.log(`Order consumer: Order created for user id: ${userId}`);
 
-        console.log('cart', cart);
+        // console.log('cart', cart);
 
         await producer.send({
           topic: "order-successful",
