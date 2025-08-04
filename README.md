@@ -10,3 +10,11 @@ microservices/
 
 Kafka Microservices Gateway Web App Mobile App
 
+Navigate to each folder and run, 
+npm i, 
+node --watch index.js 
+kafka run (docker compose up)
+client (npx next dev -p 4000)
+
+
+once i run the endpoint from client in the backend payment-service 
