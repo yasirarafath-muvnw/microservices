@@ -32,3 +32,13 @@ client (npx next dev -p 4000)
 | `order/`     | Order service processing via Kafka   |
 | `kafka/`     | Docker + topic setup (admin.js)      |
 
+
+
+FUTURE IMPLEMENTATION 
+[Expo App] --> [Node.js API] --> [Kafka Topic] --> [likes-service] --> [MongoDB]
+                            |
+                            +--> [analytics-service] --> [MongoDB]
+                            |
+                            +--> [notification-service] --> [Push Notification]
+
+
